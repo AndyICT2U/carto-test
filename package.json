@@ -1,0 +1,30 @@
+{
+  "name": "carto-test",
+  "version": "1.0.0",
+  "description": "Web Cartography test from Nicola Raluca",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:build": "tsc -w",
+    "watch:server": "browser-sync start --server -w",
+    "lint": "tslint app/**/*.ts",
+    "start": "npm-run-all --parallel watch:build watch:server"
+  },
+  "keywords": [
+    "3D",
+    "tutorial",
+    "web",
+    "ArcGIS",
+    "API",
+    "JavaScript",
+    "ict2u"
+  ],
+  "author": "Andy Schofield",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/arcgis-js-api": "^4.9.0"
+  }
+}
